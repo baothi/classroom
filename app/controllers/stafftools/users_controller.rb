@@ -8,6 +8,8 @@ module Stafftools
     def show
     end
 
+
+
     def impersonate
       session[:impersonated_user_id] = @user.id
       redirect_to root_path
